@@ -1,0 +1,22 @@
+.floating-btn {
+    /* 원 모양 */
+    background-color: blue;
+    color: white;
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 300px;
+    /* 고정값 */
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 200px;
+}
+
+.header {
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    min-height: 500px;
+    text-align: center;
+}
