@@ -1,16 +1,80 @@
+/* font face */
+
+@font-face {
+    src: url("../font/BMDOHYEON.otf");
+    font-family: BM DoHyeon;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* navbar css */
+
+.navbar {
+    top: 0px;
+    left: 0px;
+    min-height: 64px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #231F2040;
+    opacity: 1;
+}
+
+.navbar-brand {
+    top: 16px;
+    left: 32px;
+    width: 128px;
+    height: 40px;
+    opacity: 1;
+}
+
+.nav-item {
+    top: 16px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid var(--unnamed-color-ffffff);
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+.nav-link {
+    top: 20px;
+    left: 281px;
+    /* width: 38px;
+    height: 24px; */
+    color: var(--unnamed-color-231f20);
+    text-align: center;
+    font: normal normal medium 16px/24px Noto Sans CJK KR;
+    letter-spacing: 0px;
+    color: #231F20;
+    opacity: 1;
+}
+
+.nav-link a {
+    vertical-align: middle;
+}
+
+
+/* btn css */
+
 .floating-btn {
     /* 원 모양 */
-    background-color: blue;
-    color: white;
-    height: 200px;
-    width: 200px;
-    border: none;
-    border-radius: 300px;
+    color: #375FFF;
+    height: 160px;
+    width: 160px;
+    border: 16px solid white;
+    border-radius: 128px;
     /* 고정값 */
     position: fixed;
-    bottom: 2%;
-    right: 2%;
-    width: 200px;
+    bottom: 7%;
+    right: 7%;
+    background: var(--unnamed-color-fafaff) 0% 0% no-repeat padding-box;
+    background: #375FFF 0% 0% no-repeat padding-box;
+    box-shadow: 4px 4px 8px #231F2040;
+    opacity: 1;
 }
 
 .header {
@@ -19,4 +83,136 @@
     height: 100vh;
     min-height: 500px;
     text-align: center;
+}
+
+.first-container {
+    margin-top: 64px;
+    margin-left: 0px;
+    /* UI Properties */
+    background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+    background: #375FFF 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: 1;
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    background-color: black;
+    padding: 20px;
+    width: 704px;
+    height: 640px;
+    border-radius: 0 0 10px 10px;
+    float: left;
+}
+
+.helper {
+    display: inline-block;
+    height: 20%;
+    vertical-align: middle;
+}
+
+.title-text {
+    top: 404px;
+    left: 256px;
+    width: 614px;
+    height: 237px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 63px/80px BM DoHyeon;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+    margin-bottom: 64px;
+}
+
+.kakao-btn {
+    width: 256px;
+    height: 64px;
+    background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-fafaff);
+    background: #375FFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FAFAFF;
+    border-radius: 4px;
+    opacity: 1;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 20px/29px Noto Sans CJK KR;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.hyperion-btn {
+    width: 256px;
+    height: 64px;
+    /* UI Properties */
+    background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: #375FFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    opacity: 1;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 20px/29px Noto Sans CJK KR;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 32px;
+}
+
+.title-img {
+    width: 704px;
+    height: 640px;
+    /* UI Properties */
+    border: 1px solid var(--unnamed-color-fafaff);
+    border: 1px solid #FAFAFF;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+
+/* page 2 */
+
+.container-fluid {
+    margin-top: 64px;
+    background: #375FFF 0% 0% no-repeat padding-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-lg-6 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .floating-btn-border {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-fluid {
+        width: 600px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        width: 720px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ontainer-fluid {
+        width: 900px;
+        height: 1018px;
+    }
 }
