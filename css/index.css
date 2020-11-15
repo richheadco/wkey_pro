@@ -196,6 +196,10 @@
                                         float: left;
                                     }
                                     
+                                    .img-fluid {
+                                        width: 100%;
+                                    }
+                                    
                                     @media (max-width: 768px) {
                                         .floating-btn {
                                             height: 100px;
@@ -230,7 +234,10 @@
                                             background-image: url("../img/running.jpg");
                                             background-position: center center;
                                             background-repeat: no-repeat;
-                                            background-size: cover
+                                            background-size: cover;
+                                        }
+                                        .title-img {
+                                            none: none;
                                         }
                                     }
                                     
