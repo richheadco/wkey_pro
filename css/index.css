@@ -393,6 +393,11 @@
                                             margin-bottom: 32px;
                                             font: normal normal normal 30px/56px BM DoHyeon;
                                         }
+                                        /* page 3 */
+                                        .pg3-p2 {
+                                            font: normal normal normal 48px/64px BM DoHyeon;
+                                            margin-bottom: 16px;
+                                        }
                                         /* page 9 */
                                         h5.pg9-h5 {
                                             height: 200px;
