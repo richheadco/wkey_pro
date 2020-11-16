@@ -241,9 +241,38 @@
                                         color: #FFFFFF;
                                         opacity: 1;
                                     }
+                                    /* page 9 */
+                                    
+                                    .pg9 {
+                                        text-align: center;
+                                    }
                                     
                                     .pg9-img {
                                         background-color: red;
+                                        min-height: 472px;
+                                    }
+                                    
+                                    .pg9-p {
+                                        margin-top: 128px;
+                                        margin-bottom: 24px;
+                                        height: 32px;
+                                        color: var(--unnamed-color-ffffff);
+                                        text-align: center;
+                                        font: normal normal normal 24px/16px Noto Sans CJK KR;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;
+                                    }
+                                    
+                                    h5.pg9-h5 {
+                                        margin-bottom: 80px;
+                                        height: 57px;
+                                        /* UI Properties */
+                                        color: var(--unnamed-color-ffffff);
+                                        text-align: center;
+                                        font: normal normal normal 48px/44px BM DoHyeon;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
                                     }
                                     
                                     @media (max-width: 768px) {
