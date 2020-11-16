@@ -293,9 +293,11 @@
                                         }
                                         .pg2-p1 {
                                             height: 270px;
+                                            margin-bottom: 32px;
                                         }
                                         .pg2-p2 {
                                             height: 210px;
+                                            margin-bottom: 32px;
                                             font: normal normal normal 30px/56px BM DoHyeon;
                                         }
                                     }
