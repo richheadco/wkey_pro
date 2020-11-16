@@ -199,6 +199,48 @@
                                     .img-fluid {
                                         width: 100%;
                                     }
+                                    /* page 2 */
+                                    
+                                    .pg2-p1 {
+                                        margin-top: 298px;
+                                        margin-left: 256px;
+                                        margin-bottom: 0px;
+                                        height: 145px;
+                                        /* UI Properties */
+                                        color: var(--unnamed-color-ffffff);
+                                        text-align: left;
+                                        font: normal normal normal 28px/56px BM DoHyeon;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;
+                                    }
+                                    
+                                    .pg2-p2 {
+                                        margin-left: 256px;
+                                        margin-top: 80px;
+                                        height: 147px;
+                                        color: var(--unnamed-color-ffffff);
+                                        text-align: left;
+                                        font: normal normal normal 56px/80px BM DoHyeon;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                    }
+                                    
+                                    p span.ingredient {
+                                        color: #f00;
+                                    }
+                                    
+                                    .pg2-p3 {
+                                        margin-left: 256px;
+                                        margin-top: 80px;
+                                        height: 33px;
+                                        color: var(--unnamed-color-ffffff);
+                                        text-align: left;
+                                        font: normal normal normal 28px/56px BM DoHyeon;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;
+                                    }
                                     
                                     @media (max-width: 768px) {
                                         .floating-btn {
@@ -238,6 +280,23 @@
                                         }
                                         .title-img {
                                             none: none;
+                                        }
+                                        /* page 2 */
+                                        .card-img {
+                                            min-height: 700px
+                                        }
+                                        .pg2-p1,
+                                        .pg2-p2,
+                                        .pg2-p3 {
+                                            margin-top: 0px;
+                                            margin-left: 0px;
+                                        }
+                                        .pg2-p1 {
+                                            height: 270px;
+                                        }
+                                        .pg2-p2 {
+                                            height: 210px;
+                                            font: normal normal normal 30px/56px BM DoHyeon;
                                         }
                                     }
                                     
