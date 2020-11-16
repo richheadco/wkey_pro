@@ -123,10 +123,7 @@
                                         margin: 0;
                                         margin-top: 128px;
                                         margin-bottom: 64px;
-                                        margin-left: auto;
-                                        margin-right: auto;
                                         display: block;
-                                        vertical-align: middle;
                                         width: 620px;
                                     }
                                     
@@ -184,11 +181,7 @@
                                     
                                     .container-fluid {
                                         margin-top: 64px;
-                                        /* background: #375FFF 0% 0% no-repeat padding-box; */
-                                        background: url("../img/page1_test.png");
-                                        background-repeat: no-repeat;
-                                        background-position: center right;
-                                        background-size: cover;
+                                        background: #375FFF 0% 0% no-repeat padding-box;
                                         padding-right: 15px;
                                         padding-left: 15px;
                                         margin-right: auto;
