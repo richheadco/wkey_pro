@@ -283,6 +283,7 @@
                                             right: 20px;
                                         }
                                     }
+                                    /* mobile */
                                     
                                     @media (max-width: 525px) {
                                         .container-fluid {
@@ -336,6 +337,11 @@
                                             height: 210px;
                                             margin-bottom: 32px;
                                             font: normal normal normal 30px/56px BM DoHyeon;
+                                        }
+                                        /* page 9 */
+                                        h5.pg9-h5 {
+                                            height: 200px;
+                                            font: normal normal normal 48px/64px BM DoHyeon;
                                         }
                                     }
                                     
