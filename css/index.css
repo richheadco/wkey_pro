@@ -242,6 +242,10 @@
                                         opacity: 1;
                                     }
                                     
+                                    .pg9-img {
+                                        background-color: red;
+                                    }
+                                    
                                     @media (max-width: 768px) {
                                         .floating-btn {
                                             height: 100px;
@@ -294,6 +298,10 @@
                                         .pg2-p1 {
                                             height: 270px;
                                             margin-bottom: 32px;
+                                        }
+                                        .pg2-p1,
+                                        .pg2-p3 {
+                                            font: normal normal normal 22px/56px BM DoHyeon;
                                         }
                                         .pg2-p2 {
                                             height: 210px;
