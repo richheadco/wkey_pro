@@ -238,6 +238,50 @@
                                         color: #FFFFFF;
                                         opacity: 1;
                                     }
+                                    /* page 3 */
+                                    
+                                    .pg3 {
+                                        text-align: center;
+                                        height: 1080px;
+                                        background-color: #fafaff;
+                                    }
+                                    
+                                    .pg3-p1 {
+                                        height: 32px;
+                                        color: var(--unnamed-color-231f20);
+                                        text-align: center;
+                                        font: normal normal medium 24px/16px Noto Sans CJK KR;
+                                        letter-spacing: 0px;
+                                        color: #231F20;
+                                        opacity: 1;
+                                        margin-top: 128px;
+                                        margin-bottom: 24px;
+                                    }
+                                    
+                                    .pg3-p2 {
+                                        height: 64px;
+                                        color: var(--unnamed-color-375fff);
+                                        text-align: center;
+                                        font: normal normal normal 64px/44px BM DoHyeon;
+                                        letter-spacing: 0px;
+                                        color: #375FFF;
+                                        opacity: 1;
+                                        margin-bottom: 104px;
+                                    }
+                                    
+                                    p span.ingredient-two {
+                                        color: black;
+                                    }
+                                    
+                                    .pg3-img-container {
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                    }
+                                    
+                                    .pg3-img {
+                                        width: 380px;
+                                        height: 530px;
+                                    }
                                     /* page 9 */
                                     
                                     .pg9 {
