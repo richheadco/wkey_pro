@@ -127,6 +127,17 @@
                                         width: 620px;
                                     }
                                     
+                                    .pg1-subtitle {
+                                        width: 124px;
+                                        height: 56px;
+                                        color: var(--unnamed-color-ffffff);
+                                        text-align: left;
+                                        font: normal normal normal 40px/20px Noto Sans CJK KR;
+                                        letter-spacing: 0px;
+                                        color: #FFFFFF;
+                                        opacity: 1;
+                                    }
+                                    
                                     .kakao-btn {
                                         width: 256px;
                                         height: 64px;

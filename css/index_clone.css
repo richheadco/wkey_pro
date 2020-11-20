@@ -1,0 +1,568 @@
+    /* font face */
+    
+    @font-face {
+        src: url("../font/BMDOHYEON.otf");
+        font-family: BM DoHyeon;
+        font-style: normal;
+    }
+    /* Total CSS */
+    
+    * {
+        border: 1px solid red;
+    }
+    /* Navbar CSS */
+    
+    .navbar {
+        top: 0px;
+        left: 0px;
+        min-height: 64px;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #231F2040;
+        opacity: 1;
+    }
+    
+    .navbar-brand {
+        top: 16px;
+        left: 32px;
+        width: 128px;
+        height: 40px;
+        opacity: 1;
+    }
+    
+    .nav-item {
+        top: 16px;
+        width: 120px;
+        height: 40px;
+        border: 1px solid var(--unnamed-color-ffffff);
+        border: 1px solid #FFFFFF;
+        opacity: 1;
+    }
+    
+    .nav-link {
+        top: 20px;
+        left: 281px;
+        color: var(--unnamed-color-231f20);
+        text-align: center;
+        font: normal normal medium 16px/24px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    
+    .nav-link a {
+        vertical-align: middle;
+    }
+    /* floating btn css */
+    
+    .floating-btn {
+        /* 원 모양 */
+        color: #375FFF;
+        height: 160px;
+        width: 160px;
+        border: 16px solid white;
+        border-radius: 128px;
+        /* 고정값 */
+        position: fixed;
+        bottom: 80px;
+        right: 80px;
+        background: var(--unnamed-color-fafaff) 0% 0% no-repeat padding-box;
+        background: #375FFF 0% 0% no-repeat padding-box;
+        box-shadow: 4px 4px 8px #231F2040;
+        opacity: 1;
+    }
+    /* page 1 */
+    
+    .pg1 {
+        margin-top: 64px
+    }
+    
+    .pg1-txt,
+    .pg1-img {
+        width: 50vw;
+        height: 94vh;
+    }
+    
+    .pg1-txt {
+        padding-right: 0;
+        background-color: #375FFF;
+    }
+    
+    .pg1-img {
+        /* padding-top: 17.1736549vh; */
+        padding-left: 0;
+        text-align: left;
+        background-color: #375FFF;
+    }
+    
+    .outer {
+        display: table;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .align-left {
+        text-align: left;
+    }
+    
+    .align-right {
+        text-align: right;
+    }
+    
+    .pg1-txt1-box {
+        width: 81%;
+        margin-left: 19%;
+        text-align: left;
+    }
+    
+    .pg1-txt1 {
+        margin-bottom: 0px;
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal normal 64px/80px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .pg1-txt2 {
+        margin-top: 2vh;
+        margin-bottom: 64px;
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal normal 40px/20px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .kakao-btn {
+        margin-right: 32px;
+        /* border css */
+        width: 256px;
+        height: 64px;
+        background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+        border: 1px solid var(--unnamed-color-fafaff);
+        background: #375FFF 0% 0% no-repeat padding-box;
+        border: 1px solid #FAFAFF;
+        border-radius: 4px;
+        opacity: 1;
+        /* text css */
+        color: var(--unnamed-color-ffffff);
+        text-align: center;
+        font: normal normal normal 20px/29px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .hyperion-btn {
+        /* border css */
+        width: 256px;
+        height: 64px;
+        background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+        border: 1px solid var(--unnamed-color-fafaff);
+        background: #375FFF 0% 0% no-repeat padding-box;
+        border: 1px solid #FAFAFF;
+        border-radius: 4px;
+        opacity: 1;
+        /* text css */
+        color: var(--unnamed-color-ffffff);
+        text-align: center;
+        font: normal normal normal 20px/29px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    /* page 2 */
+    
+    .pg2 {
+        background-image: url("../img/pg2-img.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .pg2-txt-box {
+        width: 73.33%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .pg2-txt1 {
+        margin-bottom: 7.41%;
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal normal 28px/56px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .pg2-txt2 {
+        margin-bottom: 7.41%;
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal normal 56px/80px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    .txt-red {
+        color: red;
+    }
+    
+    .pg2-txt3 {
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal normal 28px/56px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-bottom: 0%;
+    }
+    /* page 3 */
+    
+    .pg3 {
+        text-align: center;
+    }
+    
+    .pg3-title {
+        height: 32.593vh;
+        background: var(--unnamed-color-fafaff) 0% 0% no-repeat padding-box;
+        background: #FAFAFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .pg3-title-txt1 {
+        margin-top: 8.17%;
+        margin-bottom: 1.532%;
+        color: var(--unnamed-color-231f20);
+        text-align: center;
+        font: normal normal medium 24px/16px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    
+    .pg3-title-txt2 {
+        margin-top: 2.553%;
+        color: var(--unnamed-color-375fff);
+        text-align: center;
+        font: normal normal normal 64px/44px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #375FFF;
+        opacity: 1;
+    }
+    
+    .txt-black {
+        color: black;
+    }
+    
+    .pg3-grid1,
+    .pg3-grid2,
+    .pg3-grid3,
+    .pg3-grid4 {
+        height: 51.156vh;
+        background: var(--unnamed-color-fafaff) 0% 0% no-repeat padding-box;
+        background: #FAFAFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .pg3-circle {
+        width: 64px;
+        height: 64px;
+        background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+        background: #375FFF 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        opacity: 1;
+    }
+    
+    .pg3-circle-badge1 {
+        margin-top: 120px;
+        margin-left: 80px;
+    }
+    
+    .pg3-circle-badge2 {
+        margin-top: 136px;
+        margin-left: 112px;
+    }
+    
+    .pg3-circle-badge3 {
+        margin-top: 160px;
+        margin-left: 72px;
+    }
+    
+    .pg3-circle-badge4 {
+        margin-top: 136px;
+        margin-left: 56px;
+    }
+    
+    .pg3-number {
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal normal 80px/56px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-shadow: 4px 4px 10px #00000080;
+        opacity: 1;
+        line-height: 96px;
+    }
+    
+    .pg3-num-badge {
+        position: absolute;
+        top: 136px;
+        left: 95px;
+    }
+    
+    .pg3-txt1 {
+        margin-left: 80px;
+        margin-top: 112px;
+        color: var(--unnamed-color-231f20);
+        text-align: left;
+        font: normal normal normal 40px/60px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    
+    .pg3-txt2 {
+        margin-left: 80px;
+        margin-top: 96px;
+        color: var(--unnamed-color-231f20);
+        text-align: left;
+        font: normal normal normal 40px/60px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    
+    .pg3-txt3 {
+        margin-left: 80px;
+        margin-top: 72px;
+        color: var(--unnamed-color-231f20);
+        text-align: left;
+        font: normal normal normal 40px/60px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    
+    .pg3-txt4 {
+        margin-left: 80px;
+        margin-top: 96px;
+        color: var(--unnamed-color-231f20);
+        text-align: left;
+        font: normal normal normal 40px/60px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    
+    .pg3-bottom {
+        height: 15.347vh;
+        background: var(--unnamed-color-fafaff) 0% 0% no-repeat padding-box;
+        background: #FAFAFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .pg3-bottom-txt {
+        margin-top: 3.319%;
+        text-align: center;
+        font: normal normal medium 24px/44px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+    
+    .txt-blue {
+        color: #375FFF;
+    }
+    /* page 4 */
+    
+    .pg4-grid1,
+    .pg4-grid2 {
+        /* height: 375px; */
+        text-align: left;
+    }
+    
+    .pg4-grid3,
+    .pg4-grid4 {
+        /* height: 408px; */
+        text-align: left;
+    }
+    
+    .pg4-grid1,
+    .pg4-grid3 {
+        padding-left: 11.441%;
+    }
+    
+    .pg4-title-txt {
+        margin-top: 8.17%;
+        margin-bottom: 4.8%;
+        color: var(--unnamed-color-231f20);
+        text-align: center;
+        font: normal normal normal 32px/56px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+    }
+    
+    .pg4-number {
+        margin-left: 50px;
+        margin-right: 51px;
+        height: 77px;
+        width: 22px;
+        color: var(--unnamed-color-375fff);
+        text-align: left;
+        font: normal normal normal 64px/56px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #375FFF;
+        opacity: 1;
+        line-height: 77px;
+        display: inline;
+    }
+    /* .pg4-num-badge {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    } */
+    
+    .pg4-txt1 {
+        margin-top: 0;
+        margin-bottom: 11px;
+        height: 29px;
+        color: var(--unnamed-color-231f20);
+        text-align: left;
+        font: normal normal normal 24px/56px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+        display: inline;
+    }
+    
+    .pg4-txt2 {
+        margin-top: 0px;
+        margin-bottom: 26%;
+        margin-left: 16%;
+        color: var(--unnamed-color-231f20);
+        text-align: left;
+        font: normal normal medium 16px/26px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    /* page 6 */
+    
+    .pg6-title-txt1 {
+        margin-top: 7.245%;
+        margin-bottom: 24px;
+        color: var(--unnamed-color-231f20);
+        text-align: center;
+        font: normal normal medium 24px/16px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    
+    .pg6-title-txt2 {
+        margin-bottom: 3.623%;
+        color: var(--unnamed-color-231f20);
+        text-align: center;
+        font: normal normal normal 48px/44px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+    }
+    
+    .pg6-grid1 {
+        padding: 0;
+    }
+    
+    .pg6-grid1-1 {
+        margin-left: 20.013%;
+        margin-right: 6.156%;
+    }
+    
+    .pg6-img1 {
+        min-height: 400px;
+        border-radius: 8px;
+        opacity: 1;
+    }
+    
+    .pg6-txt1 {
+        margin-top: 7.228%;
+        margin-bottom: 15.699%;
+        color: var(--unnamed-color-231f20);
+        text-align: left;
+        font: normal normal normal 24px/44px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    
+    .pg6-grid2 {
+        padding: 0;
+    }
+    
+    .pg6-grid2-2 {
+        margin-left: 6.156%;
+        margin-right: 20.013%;
+    }
+    
+    .pg6-img2 {
+        min-height: 400px;
+        border-radius: 8px;
+        opacity: 1;
+    }
+    
+    .pg6-txt2 {
+        margin-top: 7.228%;
+        margin-bottom: 15.699%;
+        color: var(--unnamed-color-231f20);
+        text-align: left;
+        font: normal normal normal 24px/44px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #231F20;
+        opacity: 1;
+    }
+    /* page 9 */
+    
+    .pg9 {
+        height: 472px;
+        text-align: center;
+        background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+        background: #375FFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .pg9-p {
+        margin-top: 5.796%;
+        margin-bottom: 24px;
+        color: var(--unnamed-color-ffffff);
+        text-align: center;
+        font: normal normal normal 24px/16px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .pg9-h1 {
+        margin-top: 0px;
+        margin-bottom: 3.623%;
+        color: var(--unnamed-color-ffffff);
+        text-align: center;
+        font: normal normal normal 48px/44px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    .pg9-sub {
+        height: 544px;
+        background: var(--unnamed-color-2c4ccc) 0% 0% no-repeat padding-box;
+        background: #2C4CCC 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
