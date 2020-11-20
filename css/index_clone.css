@@ -582,9 +582,9 @@
     /* small */
     
     @media (min-width: 576px) {
-        /* .container {
+        .container {
             max-width: 540px;
-        } */
+        }
         .pg1-txt {
             order: 2;
             height: 50%;
