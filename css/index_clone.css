@@ -1,4 +1,4 @@
-    /* font face */
+    /* Font Face */
     
     @font-face {
         src: url("../font/BMDOHYEON.otf");
@@ -53,7 +53,7 @@
     .nav-link a {
         vertical-align: middle;
     }
-    /* floating btn css */
+    /* Floating Btn CSS */
     
     .floating-btn {
         /* 원 모양 */
@@ -71,7 +71,7 @@
         box-shadow: 4px 4px 8px #231F2040;
         opacity: 1;
     }
-    /* page 1 */
+    /* Page 1 */
     
     .pg1 {
         margin-top: 64px
@@ -179,7 +179,7 @@
         color: #FFFFFF;
         opacity: 1;
     }
-    /* page 2 */
+    /* Page 2 */
     
     .pg2 {
         background-image: url("../img/pg2-img.png");
@@ -227,7 +227,7 @@
         opacity: 1;
         margin-bottom: 0%;
     }
-    /* page 3 */
+    /* Page 3 */
     
     .pg3 {
         text-align: center;
@@ -383,7 +383,7 @@
     .txt-blue {
         color: #375FFF;
     }
-    /* page 4 */
+    /* Page 4 */
     
     .pg4-grid1,
     .pg4-grid2 {
@@ -456,7 +456,8 @@
         color: #231F20;
         opacity: 1;
     }
-    /* page 6 */
+    /* Page 5 */
+    /* Page 6 */
     
     .pg6-title-txt1 {
         margin-top: 7.245%;
@@ -529,7 +530,9 @@
         color: #231F20;
         opacity: 1;
     }
-    /* page 9 */
+    /* Page 7 */
+    /* Page 8 */
+    /* Page 9 */
     
     .pg9 {
         height: 472px;
@@ -565,4 +568,56 @@
         background: var(--unnamed-color-2c4ccc) 0% 0% no-repeat padding-box;
         background: #2C4CCC 0% 0% no-repeat padding-box;
         opacity: 1;
+    }
+    /* Responsive CSS */
+    
+    .container {
+        width: 100%;
+        /* extra small */
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* small */
+    
+    @media (min-width: 576px) {
+        /* .container {
+            max-width: 540px;
+        } */
+        .pg1-txt {
+            order: 2;
+            height: 50%;
+        }
+        .pg1-img {
+            order: 1;
+            height: 50%;
+        }
+    }
+    /* medium */
+    
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+        .pg1-txt {
+            order: 1;
+        }
+        .pg1-img {
+            order: 2;
+        }
+    }
+    /* large */
+    
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
+    /* extra large */
+    
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
     }
