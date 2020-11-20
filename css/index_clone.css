@@ -587,11 +587,15 @@
         }
         .pg1-txt {
             order: 2;
-            height: 50%;
+            height: 50vh;
+        }
+        .pg1-txt1-box {
+            margin-left: auto;
+            margin-right: auto;
         }
         .pg1-img {
             order: 1;
-            height: 50%;
+            height: 50vh;
         }
     }
     /* medium */
@@ -602,9 +606,15 @@
         }
         .pg1-txt {
             order: 1;
+            height: 100vh;
+        }
+        .pg1-txt1-box {
+            margin-left: 19%;
+            margin-right: 0;
         }
         .pg1-img {
             order: 2;
+            height: 100vh;
         }
     }
     /* large */
@@ -613,11 +623,35 @@
         .container {
             max-width: 960px;
         }
+        .pg1-txt {
+            order: 1;
+            height: 100vh;
+        }
+        .pg1-txt1-box {
+            margin-left: 19%;
+            margin-right: 0;
+        }
+        .pg1-img {
+            order: 2;
+            height: 100vh;
+        }
     }
     /* extra large */
     
     @media (min-width: 1200px) {
         .container {
             max-width: 1140px;
+        }
+        .pg1-txt {
+            order: 1;
+            height: 100vh;
+        }
+        .pg1-txt1-box {
+            margin-left: 19%;
+            margin-right: 0;
+        }
+        .pg1-img {
+            order: 2;
+            height: 100vh;
         }
     }
