@@ -608,6 +608,9 @@
             order: 1;
             height: 100vh;
         }
+        .pg1-txt1 {
+            font: normal normal normal 32px/40px BM DoHyeon;
+        }
         .pg1-txt1-box {
             margin-left: 19%;
             margin-right: 0;
