@@ -607,10 +607,10 @@
         /* Page 1 */
         .pg1-txt {
             order: 1;
-            height: 50vh;
+            height: 60vh;
         }
         .pg1-txt1 {
-            font: normal normal normal 40px/48px BM DoHyeon;
+            font: normal normal normal 32px/40px BM DoHyeon;
         }
         .pg1-txt1-box {
             margin-left: 19%;
@@ -618,7 +618,7 @@
         }
         .pg1-img {
             order: 2;
-            height: 50vh;
+            height: 60vh;
         }
         .kakao-btn {
             margin-bottom: 3%;
@@ -632,7 +632,7 @@
         }
         .pg1-txt {
             order: 1;
-            height: 50vh;
+            height: 70vh;
         }
         .pg1-txt1-box {
             margin-left: 19%;
@@ -640,7 +640,7 @@
         }
         .pg1-img {
             order: 2;
-            height: 50vh;
+            height: 70vh;
         }
     }
     /* extra large */
@@ -656,6 +656,9 @@
         .pg1-txt1-box {
             margin-left: 19%;
             margin-right: 0;
+        }
+        .pg1-txt1 {
+            font: normal normal normal 64px/80px BM DoHyeon;
         }
         .pg1-img {
             order: 2;
