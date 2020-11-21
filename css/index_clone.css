@@ -604,12 +604,13 @@
         .container {
             max-width: 720px;
         }
+        /* Page 1 */
         .pg1-txt {
             order: 1;
-            height: 100vh;
+            height: 50vh;
         }
         .pg1-txt1 {
-            font: normal normal normal 32px/40px BM DoHyeon;
+            font: normal normal normal 40px/48px BM DoHyeon;
         }
         .pg1-txt1-box {
             margin-left: 19%;
@@ -617,7 +618,10 @@
         }
         .pg1-img {
             order: 2;
-            height: 100vh;
+            height: 50vh;
+        }
+        .kakao-btn {
+            margin-bottom: 3%;
         }
     }
     /* large */
@@ -628,7 +632,7 @@
         }
         .pg1-txt {
             order: 1;
-            height: 100vh;
+            height: 50vh;
         }
         .pg1-txt1-box {
             margin-left: 19%;
@@ -636,7 +640,7 @@
         }
         .pg1-img {
             order: 2;
-            height: 100vh;
+            height: 50vh;
         }
     }
     /* extra large */
