@@ -700,6 +700,15 @@
         .pg4-txt2 {
             margin-bottom: 13%;
         }
+        /* page 6 */
+        .pg6-grid1-1 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .pg6-grid2-2 {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     /* large */
     
@@ -961,5 +970,14 @@
         /* Page 4 */
         .pg4-txt2 {
             margin-bottom: 26%;
+        }
+        /* page 6 */
+        .pg6-grid1-1 {
+            margin-left: 20.013%;
+            margin-right: 6.156%;
+        }
+        .pg6-grid2-2 {
+            margin-left: 6.156%;
+            margin-right: 20.013%;
         }
     }
