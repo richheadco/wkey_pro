@@ -602,6 +602,14 @@
             height: 38vh;
             padding: 0;
         }
+        /* Page 3 */
+        .pg3-title-txt2 {
+            font: normal normal normal 32px/44px BM DoHyeon;
+        }
+        /* Page 4 */
+        .pg4-title-txt {
+            font: normal normal normal 18px/28px BM DoHyeon;
+        }
     }
     /* small */
     
@@ -870,6 +878,9 @@
         .pg2 {
             height: 100vh;
         }
+        .pg3-title-txt2 {
+            font: normal normal normal 64px/44px BM DoHyeon;
+        }
         .pg2-txt2 {
             font: normal normal normal 56px/80px BM DoHyeon;
         }
@@ -976,6 +987,9 @@
             opacity: 1;
         }
         /* Page 4 */
+        .pg4-title-txt {
+            font: normal normal normal 32px/56px BM DoHyeon;
+        }
         .pg4-txt2 {
             margin-bottom: 26%;
         }
