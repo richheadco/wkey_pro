@@ -579,6 +579,30 @@
         margin-right: auto;
         margin-left: auto;
     }
+    /* extra small */
+    
+    @media (max-width: 575px) {
+        * {
+            background-color: purple;
+        }
+        .pg1-txt {
+            order: 2;
+            height: 40vh;
+            padding: 0;
+        }
+        .pg1-txt1-box {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .pg1-txt1 {
+            font: normal normal normal 42px/50px BM DoHyeon;
+        }
+        .pg1-img {
+            order: 1;
+            height: 38vh;
+            padding: 0;
+        }
+    }
     /* small */
     
     @media (min-width: 576px) {
@@ -828,6 +852,7 @@
         .pg1-txt {
             order: 1;
             height: 100vh;
+            padding-right: 0;
         }
         .pg1-txt1-box {
             margin-left: 19%;
@@ -839,6 +864,7 @@
         .pg1-img {
             order: 2;
             height: 100vh;
+            padding-left: 0;
         }
         /* Page 2 */
         .pg2 {
