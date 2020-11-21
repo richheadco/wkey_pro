@@ -605,7 +605,7 @@
         /* Page 1 */
         .pg1-txt {
             order: 2;
-            height: 50vh;
+            height: 70vh;
             padding: 0;
         }
         .pg1-txt1-box {
@@ -650,6 +650,22 @@
             border: 1px solid #FAFAFF;
             border-radius: 4px;
             opacity: 1;
+        }
+        /* Page 2 */
+        .pg2-txt2 {
+            font: normal normal normal 16px/25px BM DoHyeon;
+        }
+        .pg2-txt1 {
+            margin-bottom: 7.41%;
+            font: normal normal normal 16px/25px BM DoHyeon;
+        }
+        .pg2-txt3 {
+            font: normal normal normal 16px/25px BM DoHyeon;
+        }
+        .pg2-txt-box {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
         }
         /* Page 3 */
         .pg3-title-txt2 {
@@ -813,6 +829,13 @@
             margin-left: 19%;
             margin-right: 0;
         }
+        .pg2-txt1 {
+            margin-bottom: 7.41%;
+            font: normal normal normal 28px/56px BM DoHyeon;
+        }
+        .pg2-txt3 {
+            font: normal normal normal 28px/56px BM DoHyeon;
+        }
         .pg1-img {
             order: 2;
             height: 70vh;
@@ -974,8 +997,20 @@
         .pg3-title-txt2 {
             font: normal normal normal 64px/44px BM DoHyeon;
         }
+        .pg2-txt1 {
+            margin-bottom: 7.41%;
+            font: normal normal normal 28px/56px BM DoHyeon;
+        }
+        .pg2-txt3 {
+            font: normal normal normal 28px/56px BM DoHyeon;
+        }
         .pg2-txt2 {
             font: normal normal normal 56px/80px BM DoHyeon;
+        }
+        .pg2-txt-box {
+            width: 73.33%;
+            margin: 0 auto;
+            text-align: center;
         }
         /* Page 3 */
         .pg3-title {
