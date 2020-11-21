@@ -585,6 +585,24 @@
         * {
             background-color: purple;
         }
+        /* Floating Btn CSS */
+        .floating-btn {
+            /* 원 모양 */
+            color: #375FFF;
+            height: 100px;
+            width: 100px;
+            border: 12px solid white;
+            border-radius: 128px;
+            /* 고정값 */
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background: var(--unnamed-color-fafaff) 0% 0% no-repeat padding-box;
+            background: #375FFF 0% 0% no-repeat padding-box;
+            box-shadow: 4px 4px 8px #231F2040;
+            opacity: 1;
+        }
+        /* Page 1 */
         .pg1-txt {
             order: 2;
             height: 50vh;
@@ -595,12 +613,43 @@
             margin-right: auto;
         }
         .pg1-txt1 {
-            font: normal normal normal 42px/50px BM DoHyeon;
+            font: normal normal normal 25px/40px BM DoHyeon;
+        }
+        .pg1-txt2 {
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+            font: normal normal normal 40px/20px Noto Sans CJK KR;
         }
         .pg1-img {
             order: 1;
             height: 38vh;
             padding: 0;
+        }
+        .kakao-btn {
+            margin-left: 16px;
+            margin-right: 32px;
+            margin-bottom: 10px;
+            /* border css */
+            width: 256px;
+            height: 64px;
+            background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+            border: 1px solid var(--unnamed-color-fafaff);
+            background: #375FFF 0% 0% no-repeat padding-box;
+            border: 1px solid #FAFAFF;
+            border-radius: 4px;
+            opacity: 1;
+        }
+        .hyperion-btn {
+            margin-left: 16px;
+            /* border css */
+            width: 256px;
+            height: 64px;
+            background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+            border: 1px solid var(--unnamed-color-fafaff);
+            background: #375FFF 0% 0% no-repeat padding-box;
+            border: 1px solid #FAFAFF;
+            border-radius: 4px;
+            opacity: 1;
         }
         /* Page 3 */
         .pg3-title-txt2 {
@@ -856,6 +905,22 @@
         .container {
             max-width: 1140px;
         }
+        .floating-btn {
+            /* 원 모양 */
+            color: #375FFF;
+            height: 160px;
+            width: 160px;
+            border: 16px solid white;
+            border-radius: 128px;
+            /* 고정값 */
+            position: fixed;
+            bottom: 80px;
+            right: 80px;
+            background: var(--unnamed-color-fafaff) 0% 0% no-repeat padding-box;
+            background: #375FFF 0% 0% no-repeat padding-box;
+            box-shadow: 4px 4px 8px #231F2040;
+            opacity: 1;
+        }
         /* Page 1 */
         .pg1-txt {
             order: 1;
@@ -869,10 +934,38 @@
         .pg1-txt1 {
             font: normal normal normal 64px/80px BM DoHyeon;
         }
+        .pg1-txt2 {
+            margin-top: 2vh;
+            margin-bottom: 64px;
+            font: normal normal normal 40px/20px Noto Sans CJK KR;
+        }
         .pg1-img {
             order: 2;
             height: 100vh;
             padding-left: 0;
+        }
+        .kakao-btn {
+            margin-right: 32px;
+            /* border css */
+            width: 256px;
+            height: 64px;
+            background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+            border: 1px solid var(--unnamed-color-fafaff);
+            background: #375FFF 0% 0% no-repeat padding-box;
+            border: 1px solid #FAFAFF;
+            border-radius: 4px;
+            opacity: 1;
+        }
+        .hyperion-btn {
+            /* border css */
+            width: 256px;
+            height: 64px;
+            background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+            border: 1px solid var(--unnamed-color-fafaff);
+            background: #375FFF 0% 0% no-repeat padding-box;
+            border: 1px solid #FAFAFF;
+            border-radius: 4px;
+            opacity: 1;
         }
         /* Page 2 */
         .pg2 {
