@@ -679,6 +679,35 @@
         background: #2C4CCC 0% 0% no-repeat padding-box;
         opacity: 1;
     }
+    /* Hover CSS */
+    
+    .kakao-btn:hover,
+    .hyperion-btn:hover,
+    .pg3-grid1:hover,
+    .pg3-grid2:hover,
+    .pg3-grid3:hover,
+    .pg3-grid4:hover {
+        background-color: #ef4800;
+    }
+    
+    .pg3-grid1:hover>.pg3-circle,
+    .pg3-grid2:hover>.pg3-circle,
+    .pg3-grid3:hover>.pg3-circle,
+    .pg3-grid4:hover>.pg3-circle {
+        background-color: #ff8000;
+    }
+    
+    .pg4-grid1:hover>.pg4-number,
+    .pg4-grid2:hover>.pg4-number,
+    .pg4-grid3:hover>.pg4-number,
+    .pg4-grid4:hover>.pg4-number {
+        color: #ef4800;
+    }
+    
+    .pg7-grid1-1:hover,
+    .pg7-grid2-2:hover {
+        background-image: none;
+    }
     /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
     /* Responsive CSS */
     
@@ -729,7 +758,7 @@
         .pg1-txt2 {
             margin-top: 2vh;
             margin-bottom: 2vh;
-            font: normal normal normal 40px/20px Noto Sans CJK KR;
+            font: normal normal normal 24px/20px Noto Sans CJK KR;
         }
         .pg1-img {
             order: 1;
