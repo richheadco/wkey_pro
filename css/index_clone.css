@@ -6,10 +6,10 @@
         font-style: normal;
     }
     /* Total CSS */
-    
-    * {
+    /* Test Option */
+    /* * {
         border: 1px solid red;
-    }
+    } */
     /* Navbar CSS */
     
     .navbar {
@@ -693,9 +693,9 @@
     /* extra small */
     
     @media (max-width: 575px) {
-        * {
+        /* * {
             background-color: purple;
-        }
+        } */
         /* Floating Btn CSS */
         .floating-btn {
             /* 원 모양 */
