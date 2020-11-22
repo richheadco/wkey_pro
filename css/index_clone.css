@@ -457,6 +457,47 @@
         opacity: 1;
     }
     /* Page 5 */
+    
+    .pg5 {
+        text-align: center;
+        height: 100vh;
+        background: var(--unnamed-color-375fff) 0% 0% no-repeat padding-box;
+        background: #375FFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .pg5-p {
+        margin-top: 5.835%;
+        color: var(--unnamed-color-ffffff);
+        font: normal normal normal 24px/16px Noto Sans CJK KR;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .pg5-h1 {
+        margin-bottom: 3.937%;
+        color: var(--unnamed-color-ffffff);
+        font: normal normal normal 48px/44px BM DoHyeon;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    .pg5-img {
+        /* height: 640px;
+        background-image: url('../img/adventure.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; */
+        min-height: 640px;
+        width: 1408px;
+        /* margin-bottom: 5.229%;
+        margin-left: 11.953%;
+        margin-right: 11.953%; */
+        border: 1px solid var(--unnamed-color-fafaff);
+        border: 1px solid #FAFAFF;
+        border-radius: 8px;
+        opacity: 1;
+    }
     /* Page 6 */
     
     .pg6-title-txt1 {
