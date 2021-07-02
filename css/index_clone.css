@@ -978,7 +978,7 @@
             height: 60vh;
         }
         .pg1-txt1 {
-            font: normal normal normal 32px/40px BM DoHyeon;
+            font: normal normal normal 31px/40px BM DoHyeon;
         }
         .pg1-txt1-box {
             margin-left: 19%;
@@ -1151,7 +1151,7 @@
         .pg3-grid2,
         .pg3-grid3,
         .pg3-grid4 {
-            height: 30vh;
+            height: 40vh;
         }
         .pg3-circle {
             width: 45px;
@@ -1293,7 +1293,7 @@
             margin-right: 0;
         }
         .pg1-txt1 {
-            font: normal normal normal 64px/80px BM DoHyeon;
+            font: normal normal normal 59px/80px BM DoHyeon;
         }
         .pg1-txt2 {
             margin-top: 2vh;
